@@ -1,15 +1,14 @@
 //
-//  AuthApp.swift
-//  AuthApp
+//  TestMergeApp.swift
+//  TestMerge
 //
-//  Created by Antigravity
+//  Created by Yogesh on 1/15/26.
 //
 
 import SwiftUI
 
-/// Main app entry point
 @main
-struct AuthApp: App {
+struct TestMergeApp: App {
     @StateObject private var authService = AuthenticationService.shared
     
     var body: some Scene {
