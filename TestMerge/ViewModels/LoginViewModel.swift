@@ -15,7 +15,7 @@ class LoginViewModel: ObservableObject {
     /// User's email input
     @Published var email: String = ""
     
-    /// User's password input ass
+    /// User's password
     @Published var password: String = ""
     
     
