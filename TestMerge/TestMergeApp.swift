@@ -13,6 +13,7 @@ struct TestMergeApp: App {
     
     var body: some Scene {
         WindowGroup {
+            // BASE
             Group {
                 if authService.isAuthenticated {
                     HomeView()

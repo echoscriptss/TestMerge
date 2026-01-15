@@ -15,6 +15,7 @@ struct HomeView: View {
     var body: some View {
         ZStack {
             // Gradient background
+            // Added new comment
             LinearGradient(
                 gradient: Gradient(colors: [
                     Color(red: 0.3, green: 0.7, blue: 0.9),
