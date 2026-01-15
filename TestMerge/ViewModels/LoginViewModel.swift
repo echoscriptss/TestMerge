@@ -15,9 +15,11 @@ class LoginViewModel: ObservableObject {
     /// User's email input
     @Published var email: String = ""
     
-    /// User's password input
+    /// User's password input ass
     @Published var password: String = ""
     
+    
+    // added new comment
     /// Error message to display to the user
     @Published var errorMessage: String = ""
     
